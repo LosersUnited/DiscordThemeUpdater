@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern File Upload</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Discord Theme Updater</div>
+        <div class="file-upload">
+            <label for="file-input" class="file-label">Insert Theme</label>
+            <input type="file" id="file-input" class="file-input" accept=".css" />
+        </div>
+        <div class="centered-container">
+            <div class="theme-dropdown">
+                <select id="theme-selector" class="theme-selector">
+                    <option value="canary">Canary</option>
+                    <option value="stable">Stable</option>
+                    <option value="development">Development</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #111218;
+}
+
+.yes
+{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-dropdown, .file-upload {
+    margin: 10px;
+}
+
+.theme-selector {
+    background-color: #494d65;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.theme-selector:hover {
+    background-color: #36373d;
+}
+
+.theme-selector option {
+    background-color: #494d65;
+    color: white;
+    border: none;
+}
+
+.theme-selector option:hover {
+    background-color: #36373d;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-upload {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-label {
+    background-color: #494d65;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.file-label:hover {
+    background-color: #36373d;
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.theme-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
